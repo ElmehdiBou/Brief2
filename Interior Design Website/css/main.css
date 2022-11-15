@@ -1,0 +1,248 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+nav {
+  width: 19%;
+  height: 100%;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 20%;
+  float: left;
+  z-index: 10;
+}
+nav .nav {
+  color: white;
+  padding-top: 100px;
+  padding-left: 32px;
+}
+.nav .logo {
+  line-height: 1.5;
+  margin-bottom: 84px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav ul li {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+}
+.nav ul li:hover {
+  color: black;
+  background-color: white;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  left: 23.7%;
+  width: auto;
+  padding-top: 6%;
+  padding-left: 23%;
+  padding-right: 20px;
+}
+header {
+  left: 23.7%;
+  top: 12%;
+}
+header h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+.sectn {
+  margin-bottom: 70px;
+}
+.sectn h2 {
+  color: red;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sectn span hr {
+  width: 60px;
+  height: 10px;
+  background-color: red;
+  position: relative;
+  border: none;
+  border-radius: 4px;
+}
+.sectn span hr::before {
+  content: "";
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  left: 10%;
+  top: 5px;
+}
+.inter-img {
+  width: 100%;
+  margin-top: 30px;
+}
+.inter-img img {
+  width: 46%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+.inter-img img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.sectn p {
+  margin: 20px 0 15px;
+  padding-right: 12px;
+}
+.sectn:nth-of-type(2) span hr::before {
+  display: none;
+}
+.designers span hr::before {
+  display: none;
+}
+.designers p:last-of-type {
+  font-weight: bold;
+}
+.designers .card {
+  width: 30%;
+  background-color: #f1f1f1;
+  display: inline-block;
+  margin-right: 15px;
+}
+.designers .card img {
+  width: 100%;
+}
+.designers .card-descrip {
+  padding: 15px;
+}
+.card .card-descrip h4 {
+  font-weight: 500;
+  font-size: 22px;
+}
+.card .card-descrip p {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.card-descrip p:first-of-type {
+  color: grey;
+}
+.price-wrapper {
+  position: relative;
+}
+.price {
+  width: 46%;
+  background-color: #f1f1f1;
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+.basic:first-child p {
+  background-color: #616161;
+  padding: 30px 0;
+  color: white;
+  margin: 0;
+}
+.price ul li {
+  border-bottom: 1px solid lightgrey;
+  padding: 15px 0;
+}
+.price ul li:last-of-type {
+  color: grey;
+  position: relative;
+  padding-top: 60px;
+  font-size: 16px;
+}
+.price ul li span {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 35px;
+}
+.price button {
+  background-color: white;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border: none;
+  font-size: 18px;
+}
+.price button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.pro p {
+  background-color: red;
+  padding: 30px 0;
+  color: white;
+  margin: 0;
+}
+.pro button {
+  background-color: red;
+  color: white;
+}
+form input {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  border: 1px solid lightgrey;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+form input[type="submit"] {
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  padding: 15px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+label {
+  font-size: 17px;
+}
+footer {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 20%;
+  position: relative;
+}
+.social {
+  position: absolute;
+  left: 54%;
+  font-size: 25px;
+  top: 100px;
+}
+.social i {
+  display: inline-block;
+}
+.social a {
+  color: transparent;
+}
+.copyright {
+  float: right;
+  margin-right: 38.3%;
+  margin-top: 74px;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+i {
+  color: red;
+  text-align: center;
+}
